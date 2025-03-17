@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Awesome Hugo blog</title>
+    <title>Home on Tutoriais Tech</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Awesome Hugo blog</description>
+    <description>Recent content in Home on Tutoriais Tech</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim Commands</title>
+      <link>http://localhost:1313/posts/vim-commands/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/vim-commands/</guid>
+      
+      <description>&lt;h1 id=&#34;vim-editing-commands-tutorial&#34;&gt;Vim Editing Commands Tutorial&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Vim is a powerful text editor used by developers and system administrators. This tutorial covers essential editing commands to enhance your efficiency.&lt;/p&gt;
+&lt;h2 id=&#34;basic-editing-commands&#34;&gt;Basic Editing Commands&lt;/h2&gt;
+&lt;h3 id=&#34;insert-mode&#34;&gt;Insert Mode&lt;/h3&gt;
+&lt;p&gt;To enter insert mode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;below&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;O&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;above&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;deleting-text&#34;&gt;Deleting Text&lt;/h3&gt;
+&lt;p&gt;To delete characters, words, or lines:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dd&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;$   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d0&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;beginning&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;copy-and-paste&#34;&gt;Copy and Paste&lt;/h3&gt;
+&lt;p&gt;Copy (yank) and paste:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yy&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;copy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;P&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;undo-and-redo&#34;&gt;Undo and Redo&lt;/h3&gt;
+&lt;p&gt;Undo and redo changes:&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Table of content</title>
       <link>http://localhost:1313/posts/table-of-content/</link>
@@ -94,16 +128,31 @@
       
       <guid>http://localhost:1313/pages/about/</guid>
       
-      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yuin/goldmark&#34;&gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;the-hugo&#34;&gt;The Hugo&lt;/h1&gt;
+&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
+&lt;h2 id=&#34;various-projects&#34;&gt;Various projects&lt;/h2&gt;
+&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Events I was participate</title>
+      <link>http://localhost:1313/pages/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/events/</guid>
+      
+      <description>&lt;h2 id=&#34;1-seminars&#34;&gt;1. Seminars&lt;/h2&gt;
+&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;
+&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;
+&lt;h2 id=&#34;4-conferences&#34;&gt;4. Conferences&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;Test math:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times 2 = \frac{6}{4} \div 2 = \frac{3}{2}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\int_{-1}^{2} x^2 dx
+$$&lt;/p&gt;</description>
       
     </item>
     

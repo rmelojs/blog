@@ -26,11 +26,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/posts/"
                 />
@@ -56,11 +51,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -92,11 +82,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/table-of-content/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/posts/table-of-content/"
                 />
@@ -122,11 +107,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -158,11 +138,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/posts/markdown-syntax/"
                 />
@@ -188,11 +163,6 @@
                 rel="alternate"
                 hreflang="en-gb"
                 href="http://localhost:1313/posts/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -224,11 +194,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/posts/placeholder-text/"
                 />
@@ -254,11 +219,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -290,11 +250,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/posts/emoji-support/"
                 />
@@ -320,11 +275,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -355,11 +305,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/categories/"
                 />
@@ -387,11 +332,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/pages/about/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="it"
                 href="http://localhost:1313/it/pages/about/"
                 />
@@ -416,11 +356,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/pages/"
                 />
     <xhtml:link
                 rel="alternate"

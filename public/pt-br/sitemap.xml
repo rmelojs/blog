@@ -6,28 +6,8 @@
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -39,28 +19,8 @@
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -72,28 +32,8 @@
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/table-of-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/table-of-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/table-of-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/table-of-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/table-of-content/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -105,28 +45,8 @@
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -138,28 +58,8 @@
     <lastmod>2023-02-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -171,28 +71,8 @@
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -204,28 +84,8 @@
     <lastmod>2023-02-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -237,28 +97,8 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -270,28 +110,8 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/posts/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -303,28 +123,8 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -335,28 +135,8 @@
     <loc>http://localhost:1313/pt-br/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -364,31 +144,23 @@
                 href="http://localhost:1313/pt-br/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/pt-br/pages/events/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/pages/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt-br/pages/events/"
+                />
+  </url><url>
     <loc>http://localhost:1313/pt-br/pages/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/pages/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -399,28 +171,8 @@
     <loc>http://localhost:1313/pt-br/pages/about/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="de-de"
-                href="http://localhost:1313/de-de/pages/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-gb"
+                hreflang="en"
                 href="http://localhost:1313/pages/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/fr-fr/pages/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru-ru/pages/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/pages/about/"
                 />
     <xhtml:link
                 rel="alternate"
