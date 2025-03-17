@@ -19,7 +19,8 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Twitter Simple Shortcode
 
-{{< x user="DesignReviewed" id="1085870671291310081" >}}
+<!-- x shortcode not found -->
+<!-- {{< x user="DesignReviewed" id="1085870671291310081" >}} -->
 
 <br>
 

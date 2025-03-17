@@ -19,7 +19,8 @@ Hugo viene distribuito con alcuni [Shortcode integrati](https://gohugo.io/conten
 
 ## Semplice Shortcode Per Twitter
 
-{{< x user="DesignReviewed" id="1085870671291310081" >}}
+<!-- x shortcode not found -->
+<!-- {{< x user="DesignReviewed" id="1085870671291310081" >}} -->
 
 <br>
 
