@@ -1,5 +1,5 @@
 title = "Tutoriais Tech"
-baseURL = 'https://riotechsistemas.com.br'
+baseURL = 'https://tech-tutoriais.netlify.app/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
