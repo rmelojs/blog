@@ -4,157 +4,212 @@
     <title>Home on Tutoriais Tech</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on Tutoriais Tech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Mar 2025 17:31:43 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Mar 2025 08:28:48 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/en/pages/tools/</link>
+      <pubDate>Wed, 19 Mar 2025 08:28:48 -0300</pubDate>
+      <guid>http://localhost:1313/en/pages/tools/</guid>
+      <description>&lt;h2 id=&#34;free-and-open-source-tools&#34;&gt;Free and Open Source tools&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/pages/tools/</link>
+      <pubDate>Wed, 19 Mar 2025 08:28:48 -0300</pubDate>
+      <guid>http://localhost:1313/pages/tools/</guid>
+      <description>&lt;h2 id=&#34;free-and-open-source-tools&#34;&gt;Free and Open Source tools&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Vim Commands</title>
+      <link>http://localhost:1313/en/posts/vim-commands/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/vim-commands/</guid>
+      <description>&lt;h1 id=&#34;vim-editing-commands-tutorial&#34;&gt;Vim Editing Commands Tutorial&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Vim is a powerful text editor used by developers and system administrators. This tutorial covers essential editing commands to enhance your efficiency.&lt;/p&gt;&#xA;&lt;h2 id=&#34;basic-editing-commands&#34;&gt;Basic Editing Commands&lt;/h2&gt;&#xA;&lt;h3 id=&#34;insert-mode&#34;&gt;Insert Mode&lt;/h3&gt;&#xA;&lt;p&gt;To enter insert mode:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;below&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;O&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;above&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;deleting-text&#34;&gt;Deleting Text&lt;/h3&gt;&#xA;&lt;p&gt;To delete characters, words, or lines:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dd&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;$   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d0&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;beginning&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;copy-and-paste&#34;&gt;Copy and Paste&lt;/h3&gt;&#xA;&lt;p&gt;Copy (yank) and paste:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yy&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;copy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;P&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;undo-and-redo&#34;&gt;Undo and Redo&lt;/h3&gt;&#xA;&lt;p&gt;Undo and redo changes:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vim Commands</title>
       <link>http://localhost:1313/posts/vim-commands/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/vim-commands/</guid>
-      
-      <description>&lt;h1 id=&#34;vim-editing-commands-tutorial&#34;&gt;Vim Editing Commands Tutorial&lt;/h1&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Vim is a powerful text editor used by developers and system administrators. This tutorial covers essential editing commands to enhance your efficiency.&lt;/p&gt;
-&lt;h2 id=&#34;basic-editing-commands&#34;&gt;Basic Editing Commands&lt;/h2&gt;
-&lt;h3 id=&#34;insert-mode&#34;&gt;Insert Mode&lt;/h3&gt;
-&lt;p&gt;To enter insert mode:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;below&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;O&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;above&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;deleting-text&#34;&gt;Deleting Text&lt;/h3&gt;
-&lt;p&gt;To delete characters, words, or lines:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dd&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;$   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d0&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;beginning&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;copy-and-paste&#34;&gt;Copy and Paste&lt;/h3&gt;
-&lt;p&gt;Copy (yank) and paste:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yy&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;copy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;P&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;undo-and-redo&#34;&gt;Undo and Redo&lt;/h3&gt;
-&lt;p&gt;Undo and redo changes:&lt;/p&gt;</description>
-      
+      <description>&lt;h1 id=&#34;vim-editing-commands-tutorial&#34;&gt;Vim Editing Commands Tutorial&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Vim is a powerful text editor used by developers and system administrators. This tutorial covers essential editing commands to enhance your efficiency.&lt;/p&gt;&#xA;&lt;h2 id=&#34;basic-editing-commands&#34;&gt;Basic Editing Commands&lt;/h2&gt;&#xA;&lt;h3 id=&#34;insert-mode&#34;&gt;Insert Mode&lt;/h3&gt;&#xA;&lt;p&gt;To enter insert mode:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;below&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;O&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Insert&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;above&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;deleting-text&#34;&gt;Deleting Text&lt;/h3&gt;&#xA;&lt;p&gt;To delete characters, words, or lines:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dd&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;dw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;$   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;d0&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Delete&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;beginning&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;copy-and-paste&#34;&gt;Copy and Paste&lt;/h3&gt;&#xA;&lt;p&gt;Copy (yank) and paste:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vim&#34; data-lang=&#34;vim&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yy&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;copy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;current&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;yw&lt;/span&gt;   # &lt;span class=&#34;nx&#34;&gt;Yank&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;word&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;p&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;after&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;P&lt;/span&gt;    # &lt;span class=&#34;nx&#34;&gt;Paste&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;before&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;the&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cursor&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;undo-and-redo&#34;&gt;Undo and Redo&lt;/h3&gt;&#xA;&lt;p&gt;Undo and redo changes:&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Tabela de Conteúdo</title>
+      <link>http://localhost:1313/br/posts/table-of-content/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/posts/table-of-content/</guid>
+      <description>&lt;h2 id=&#34;tabela-de-conteúdo&#34;&gt;Tabela de Conteúdo&lt;/h2&gt;&#xA;&lt;p&gt;Este tema suporta a exibição de um tabela de conteúdo (ToC) em postagens de blog.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parâmetros&#34;&gt;Parâmetros&lt;/h2&gt;&#xA;&lt;p&gt;Você pode gerenciar o tabela de conteúdo com dois parâmetros:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;parâmetro global &lt;code&gt;toc&lt;/code&gt;;&lt;/li&gt;&#xA;&lt;li&gt;parâmetro de postagem &lt;code&gt;toc&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;O parâmetro &lt;code&gt;toc&lt;/code&gt; da postagem tem prioridade mais alta que o parâmetro global &lt;code&gt;toc&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;habilitar-a-tabela-de-conteúdo-em-todas-as-postagens&#34;&gt;Habilitar a Tabela de Conteúdo em todas as postagens&lt;/h2&gt;&#xA;&lt;p&gt;Para habilitar o tabela de conteúdo (ToC) em todas as postagens (globalmente), defina o parâmetro &lt;code&gt;toc&lt;/code&gt; como &lt;code&gt;true&lt;/code&gt; no arquivo &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Table of content</title>
+      <link>http://localhost:1313/en/posts/table-of-content/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/table-of-content/</guid>
+      <description>&lt;h2 id=&#34;table-of-content&#34;&gt;Table of content&lt;/h2&gt;&#xA;&lt;p&gt;This theme supports displaying table of content (ToC) in blog posts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;&#xA;&lt;p&gt;You can manage a ToC with two parameters:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;global &lt;code&gt;toc&lt;/code&gt; parameter;&lt;/li&gt;&#xA;&lt;li&gt;post &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The post &lt;code&gt;toc&lt;/code&gt; parameter has higher priority than the global &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/p&gt;&#xA;&lt;h2 id=&#34;enable-table-of-content-on-all-posts&#34;&gt;Enable table of content on all posts&lt;/h2&gt;&#xA;&lt;p&gt;To enable ToC on all posts (globally) set parameter &lt;code&gt;toc&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;toc&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To disable ToC globally, simply ignore the &lt;code&gt;toc&lt;/code&gt; parameter or set it to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Table of content</title>
       <link>http://localhost:1313/posts/table-of-content/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/table-of-content/</guid>
-      
-      <description>&lt;h2 id=&#34;table-of-content&#34;&gt;Table of content&lt;/h2&gt;
-&lt;p&gt;This theme supports displaying table of content (ToC) in blog posts.&lt;/p&gt;
-&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;
-&lt;p&gt;You can manage a ToC with two parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;global &lt;code&gt;toc&lt;/code&gt; parameter;&lt;/li&gt;
-&lt;li&gt;post &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The post &lt;code&gt;toc&lt;/code&gt; parameter has higher priority than the global &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/p&gt;
-&lt;h2 id=&#34;enable-table-of-content-on-all-posts&#34;&gt;Enable table of content on all posts&lt;/h2&gt;
-&lt;p&gt;To enable ToC on all posts (globally) set parameter &lt;code&gt;toc&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;toc&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To disable ToC globally, simply ignore the &lt;code&gt;toc&lt;/code&gt; parameter or set it to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
-      
+      <description>&lt;h2 id=&#34;table-of-content&#34;&gt;Table of content&lt;/h2&gt;&#xA;&lt;p&gt;This theme supports displaying table of content (ToC) in blog posts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;&#xA;&lt;p&gt;You can manage a ToC with two parameters:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;global &lt;code&gt;toc&lt;/code&gt; parameter;&lt;/li&gt;&#xA;&lt;li&gt;post &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The post &lt;code&gt;toc&lt;/code&gt; parameter has higher priority than the global &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/p&gt;&#xA;&lt;h2 id=&#34;enable-table-of-content-on-all-posts&#34;&gt;Enable table of content on all posts&lt;/h2&gt;&#xA;&lt;p&gt;To enable ToC on all posts (globally) set parameter &lt;code&gt;toc&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;toc&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To disable ToC globally, simply ignore the &lt;code&gt;toc&lt;/code&gt; parameter or set it to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Math Typesetting - use Mathematical notation in blog posts</title>
+      <link>http://localhost:1313/en/posts/math-typesetting/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using&#xA;&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;third party JavaScript libraries&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Math Typesetting - use Mathematical notation in blog posts</title>
       <link>http://localhost:1313/posts/math-typesetting/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using
-&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;third party JavaScript libraries&lt;/a&gt;.&lt;/p&gt;</description>
-      
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using&#xA;&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;third party JavaScript libraries&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Notação Matemática - use a notação matemática em postagens de blog.</title>
+      <link>http://localhost:1313/br/posts/math-typesetting/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;A notação matemática em um projeto Hugo pode ser habilitada usando&#xA;&lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;bibliotecas JavaScript de terceiros&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guia de Sintaxe de Markdown</title>
+      <link>http://localhost:1313/br/posts/markdown-syntax/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;Este artigo fornece um exemplo da sintaxe básica de Markdown que pode ser usada em arquivos de conteúdo do Hugo e também mostra se os elementos básicos de HTML são decorados com CSS em um tema do Hugo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/en/posts/markdown-syntax/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Markdown Syntax Guide</title>
       <link>http://localhost:1313/posts/markdown-syntax/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-      
     </item>
-    
+    <item>
+      <title>Conteúdo Rico</title>
+      <link>http://localhost:1313/br/posts/rich-content/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/posts/rich-content/</guid>
+      <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Shortcodes Integrados&lt;/a&gt; para conteúdo rico, juntamente com uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Configuração de Privacidade&lt;/a&gt; e um conjunto de Shortcodes Simples que permitem versões estáticas e sem JavaScript de diversas página embutidas de mídias sociais.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>http://localhost:1313/en/posts/rich-content/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rich Content</title>
       <link>http://localhost:1313/posts/rich-content/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/rich-content/</guid>
-      
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-      
     </item>
-    
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://localhost:1313/en/posts/placeholder-text/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Placeholder Text</title>
       <link>http://localhost:1313/posts/placeholder-text/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/placeholder-text/</guid>
-      
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
     </item>
-    
+    <item>
+      <title>Texto de Substituição</title>
+      <link>http://localhost:1313/br/posts/placeholder-text/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/br/posts/emoji-support/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Os emojis podem ser habilitados em um projeto Hugo de várias maneiras.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/en/posts/emoji-support/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Emoji Support</title>
       <link>http://localhost:1313/posts/emoji-support/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/posts/emoji-support/</guid>
-      
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-      
     </item>
-    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/public/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/public/</guid>
+      <description>&lt;!DOCTYPE html&gt;&lt;html lang=&#34;en&#34; class=&#34;dark&#34;&gt;&lt;head&gt;&lt;script src=&#34;http://localhost:1313/livereload.js?mindelay=10&amp;amp;v=2&amp;amp;port=1313&amp;amp;path=livereload&#34; data-no-instant defer&gt;&lt;/script&gt;&lt;meta charset=&#34;utf-8&#34;&gt;&#xA;&lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html&#34;&gt;&#xA;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;&#xA;&lt;title itemprop=&#34;name&#34;&gt;Ricardo Melo&lt;/title&gt;&#xA;&lt;meta property=&#34;og:title&#34; content=&#34;Home | Awesome Hugo blog&#34; /&gt;&#xA;&lt;meta name=&#34;twitter:title&#34; content=&#34;Home | Awesome Hugo blog&#34; /&gt;&#xA;&lt;meta itemprop=&#34;name&#34; content=&#34;Home | Awesome Hugo blog&#34; /&gt;&#xA;&lt;meta name=&#34;application-name&#34; content=&#34;Home | Awesome Hugo blog&#34; /&gt;&#xA;&lt;meta property=&#34;og:site_name&#34; content=&#34;Awesome hugo blog&#34; /&gt;&#xA;&#xA;&lt;meta name=&#34;description&#34; content=&#34;Minimal Hugo blog theme with light and dark mode support&#34;&gt;&#xA;&lt;meta itemprop=&#34;description&#34; content=&#34;Minimal Hugo blog theme with light and dark mode support&#34; /&gt;&#xA;&lt;meta property=&#34;og:description&#34; content=&#34;Minimal Hugo blog theme with light and dark mode support&#34; /&gt;&#xA;&lt;meta name=&#34;twitter:description&#34; content=&#34;Minimal Hugo blog theme with light and dark mode support&#34; /&gt;&#xA;&#xA;&lt;meta property=&#34;og:locale&#34; content=&#34;en-gb&#34; /&gt;&#xA;&lt;meta name=&#34;language&#34; content=&#34;en-gb&#34; /&gt;&#xA;&#xA;  &lt;link rel=&#34;alternate&#34; hreflang=&#34;de-de&#34; href=&#34;http://localhost:1313/de-de/&#34; title=&#34;German&#34; /&gt;&#xA;&#xA;  &lt;link rel=&#34;alternate&#34; hreflang=&#34;en-gb&#34; href=&#34;http://localhost:1313/&#34; title=&#34;English&#34; /&gt;&#xA;&#xA;  &lt;link rel=&#34;alternate&#34; hreflang=&#34;fr-fr&#34; href=&#34;http://localhost:1313/fr-fr/&#34; title=&#34;French&#34; /&gt;&#xA;&#xA;  &lt;link rel=&#34;alternate&#34; hreflang=&#34;pt-br&#34; href=&#34;http://localhost:1313/pt-br/&#34; title=&#34;Brazilian&#34; /&gt;&#xA;&#xA;  &lt;link rel=&#34;alternate&#34; hreflang=&#34;ru-ru&#34; href=&#34;http://localhost:1313/ru-ru/&#34; title=&#34;Russian&#34; /&gt;&#xA;&#xA;  &lt;link rel=&#34;alternate&#34; hreflang=&#34;it&#34; href=&#34;http://localhost:1313/it/&#34; title=&#34;Italian&#34; /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;meta name=&#34;generator&#34; content=&#34;Hugo 0.145.0&#34;&gt;&#xA;&#xA;    &#xA;    &lt;meta property=&#34;og:url&#34; content=&#34;http://localhost:1313/&#34;&gt;&#xA;  &lt;meta property=&#34;og:site_name&#34; content=&#34;Awesome Hugo blog&#34;&gt;&#xA;  &lt;meta property=&#34;og:title&#34; content=&#34;Home&#34;&gt;&#xA;  &lt;meta property=&#34;og:description&#34; content=&#34;Minimal Hugo blog theme with light and dark mode support&#34;&gt;&#xA;  &lt;meta property=&#34;og:locale&#34; content=&#34;en_gb&#34;&gt;&#xA;  &lt;meta property=&#34;og:type&#34; content=&#34;website&#34;&gt;&#xA;&#xA;&#xA;    &#xA;    &#xA;  &lt;meta name=&#34;twitter:card&#34; content=&#34;summary&#34;&gt;&#xA;  &lt;meta name=&#34;twitter:title&#34; content=&#34;Home&#34;&gt;&#xA;  &lt;meta name=&#34;twitter:description&#34; content=&#34;Minimal Hugo blog theme with light and dark mode support&#34;&gt;&#xA;&#xA;&#xA;    &#xA;&#xA;    &lt;link rel=&#34;canonical&#34; href=&#34;http://localhost:1313/&#34;&gt;&#xA;    &lt;link href=&#34;http://localhost:1313/index.xml&#34; rel=&#34;alternate&#34; type=&#34;application/rss+xml&#34; title=&#34;Awesome Hugo blog&#34;&gt;&#xA;    &lt;link href=&#34;http://localhost:1313/index.xml&#34; rel=&#34;feed&#34; type=&#34;application/rss+xml&#34; title=&#34;Awesome Hugo blog&#34;&gt;&#xA;    &lt;link href=&#34;http://localhost:1313/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css&#34; rel=&#34;stylesheet&#34;&gt;&#xA;    &lt;link href=&#34;http://localhost:1313/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css&#34; rel=&#34;stylesheet&#34;&gt;&#xA;&#xA;    &#xA;    &lt;link rel=&#34;apple-touch-icon&#34; sizes=&#34;180x180&#34; href=&#34;http://localhost:1313/icons/apple-touch-icon.png&#34;&gt;&#xA;    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; sizes=&#34;32x32&#34; href=&#34;http://localhost:1313/icons/favicon-32x32.png&#34;&gt;&#xA;    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; sizes=&#34;16x16&#34; href=&#34;http://localhost:1313/icons/favicon-16x16.png&#34;&gt;&#xA;    &lt;link rel=&#34;mask-icon&#34; href=&#34;http://localhost:1313/icons/safari-pinned-tab.svg&#34;&gt;&#xA;    &lt;link rel=&#34;shortcut icon&#34; href=&#34;http://localhost:1313/favicon.ico&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;link rel=&#34;manifest&#34; href=&#34;http://localhost:1313/site.webmanifest&#34;&gt;&#xA;&#xA;&lt;meta name=&#34;msapplication-config&#34; content=&#34;/browserconfig.xml&#34;&gt;&#xA;&lt;meta name=&#34;msapplication-TileColor&#34; content=&#34;#2d89ef&#34;&gt;&#xA;&lt;meta name=&#34;theme-color&#34; content=&#34;#434648&#34;&gt;&#xA;&#xA;    &#xA;    &lt;link rel=&#34;icon&#34; type=&#34;image/svg+xml&#34; href=&#34;http://localhost:1313/icons/favicon.svg&#34;&gt;&#xA;&#xA;    &#xA;    &#xA;&lt;/head&gt;&#xA;&lt;body data-theme=&#34;dark&#34; class=&#34;notransition&#34;&gt;&#xA;&#xA;&lt;script src=&#34;http://localhost:1313/js/theme.js&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;div class=&#34;navbar&#34; role=&#34;navigation&#34;&gt;&#xA;    &lt;nav class=&#34;menu&#34; aria-label=&#34;Main Navigation&#34;&gt;&#xA;        &lt;a href=&#34;http://localhost:1313/&#34; class=&#34;logo&#34;&gt;&#xA;            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;25&#34; height=&#34;25&#34; &#xA;viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; &#xA;stroke-linejoin=&#34;round&#34; class=&#34;feather feather-home&#34;&gt;&#xA;&lt;title&gt;Home&lt;/title&gt;&#xA;&lt;path d=&#34;M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z&#34;&gt;&lt;/path&gt;&#xA;&lt;polyline points=&#34;9 22 9 12 15 12 15 22&#34;&gt;&lt;/polyline&gt;&#xA;&lt;/svg&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;input type=&#34;checkbox&#34; id=&#34;menu-trigger&#34; class=&#34;menu-trigger&#34; /&gt;&#xA;        &lt;label for=&#34;menu-trigger&#34;&gt;&#xA;            &lt;span class=&#34;menu-icon&#34;&gt;&#xA;                &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;25&#34; height=&#34;25&#34; stroke=&#34;currentColor&#34; fill=&#34;none&#34; viewBox=&#34;0 0 14 14&#34;&gt;&lt;title&gt;Menu&lt;/title&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M10.595 7L3.40726 7&#34;&gt;&lt;/path&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M10.5096 3.51488L3.49301 3.51488&#34;&gt;&lt;/path&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M10.5096 10.4851H3.49301&#34;&gt;&lt;/path&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;            &lt;/span&gt;&#xA;        &lt;/label&gt;&#xA;&#xA;        &lt;div class=&#34;trigger&#34;&gt;&#xA;            &lt;ul class=&#34;trigger-container&#34;&gt;&#xA;                &#xA;                &#xA;                &lt;li&gt;&#xA;                    &lt;a class=&#34;menu-link active&#34; href=&#34;http://localhost:1313/&#34;&gt;&#xA;                        Home&#xA;                    &lt;/a&gt;&#xA;                    &#xA;                &lt;/li&gt;&#xA;                &#xA;                &lt;li&gt;&#xA;                    &lt;a class=&#34;menu-link &#34; href=&#34;http://localhost:1313/posts/&#34;&gt;&#xA;                        Posts&#xA;                    &lt;/a&gt;&#xA;                    &#xA;                &lt;/li&gt;&#xA;                &#xA;                &lt;li&gt;&#xA;                    &lt;a class=&#34;menu-link &#34; href=&#34;http://localhost:1313/pages/about/&#34;&gt;&#xA;                        About&#xA;                    &lt;/a&gt;&#xA;                    &#xA;                &lt;/li&gt;&#xA;                &#xA;                &lt;li class=&#34;menu-separator&#34;&gt;&#xA;                    &lt;span&gt;|&lt;/span&gt;&#xA;                &lt;/li&gt;&#xA;                &#xA;                &#xA;                    &lt;li&gt;&#xA;                        &lt;select aria-label=&#34;Select Language&#34; class=&#34;lang-list&#34; id=&#34;select-language&#34; onchange=&#34;location = this.value;&#34;&gt;&#xA;                            &#xA;                            &#xA;                            &#xA;                                &#xA;                                &#xA;                                    &#xA;                                        &#xA;                                        &#xA;                                            &lt;option id=&#34;de-de&#34; value=&#34;http://localhost:1313/de-de/&#34;&gt;DE-DE&lt;/option&gt;&#xA;                                        &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                            &#xA;                                &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                        &#xA;                                        &#xA;                                            &lt;option id=&#34;en-gb&#34; value=&#34;http://localhost:1313/&#34; selected&gt;EN-GB&#xA;                                            &lt;/option&gt;&#xA;                                        &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                            &#xA;                                &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                        &#xA;                                        &#xA;                                            &lt;option id=&#34;fr-fr&#34; value=&#34;http://localhost:1313/fr-fr/&#34;&gt;FR-FR&lt;/option&gt;&#xA;                                        &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                            &#xA;                                &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                        &#xA;                                        &#xA;                                            &lt;option id=&#34;pt-br&#34; value=&#34;http://localhost:1313/pt-br/&#34;&gt;PT-BR&lt;/option&gt;&#xA;                                        &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                            &#xA;                                &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                        &#xA;                                        &#xA;                                            &lt;option id=&#34;ru-ru&#34; value=&#34;http://localhost:1313/ru-ru/&#34;&gt;RU-RU&lt;/option&gt;&#xA;                                        &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                            &#xA;                                &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                &#xA;                                    &#xA;                                        &#xA;                                        &#xA;                                            &lt;option id=&#34;it&#34; value=&#34;http://localhost:1313/it/&#34;&gt;IT&lt;/option&gt;&#xA;                                        &#xA;                                    &#xA;                                &#xA;                            &#xA;                        &lt;/select&gt;                &#xA;                    &lt;/li&gt;&#xA;                    &lt;li class=&#34;menu-separator&#34;&gt;&#xA;                        &lt;span&gt;|&lt;/span&gt;&#xA;                    &lt;/li&gt;&#xA;                &#xA;            &lt;/ul&gt;&#xA;            &lt;a id=&#34;mode&#34; href=&#34;#&#34;&gt;&#xA;                &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;mode-sunny&#34; width=&#34;21&#34; height=&#34;21&#34; viewBox=&#34;0 0 14 14&#34; stroke-width=&#34;1&#34;&gt;&#xA;&lt;title&gt;LIGHT&lt;/title&gt;&lt;g&gt;&lt;circle cx=&#34;7&#34; cy=&#34;7&#34; r=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/circle&gt;&lt;line x1=&#34;7&#34; y1=&#34;0.5&#34; x2=&#34;7&#34; y2=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;2.4&#34; y1=&#34;2.4&#34; x2=&#34;3.82&#34; y2=&#34;3.82&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;0.5&#34; y1=&#34;7&#34; x2=&#34;2.5&#34; y2=&#34;7&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;2.4&#34; y1=&#34;11.6&#34; x2=&#34;3.82&#34; y2=&#34;10.18&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;7&#34; y1=&#34;13.5&#34; x2=&#34;7&#34; y2=&#34;11.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;11.6&#34; y1=&#34;11.6&#34; x2=&#34;10.18&#34; y2=&#34;10.18&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;13.5&#34; y1=&#34;7&#34; x2=&#34;11.5&#34; y2=&#34;7&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;11.6&#34; y1=&#34;2.4&#34; x2=&#34;10.18&#34; y2=&#34;3.82&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;/g&gt;&lt;/svg&gt;&#xA;                &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;mode-moon&#34; width=&#34;21&#34; height=&#34;21&#34; viewBox=&#34;0 0 14 14&#34; stroke-width=&#34;1&#34;&gt;&#xA;&lt;title&gt;DARK&lt;/title&gt;&lt;g&gt;&lt;circle cx=&#34;7&#34; cy=&#34;7&#34; r=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/circle&gt;&lt;line x1=&#34;7&#34; y1=&#34;0.5&#34; x2=&#34;7&#34; y2=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;2.4&#34; y1=&#34;2.4&#34; x2=&#34;3.82&#34; y2=&#34;3.82&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;0.5&#34; y1=&#34;7&#34; x2=&#34;2.5&#34; y2=&#34;7&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;2.4&#34; y1=&#34;11.6&#34; x2=&#34;3.82&#34; y2=&#34;10.18&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;7&#34; y1=&#34;13.5&#34; x2=&#34;7&#34; y2=&#34;11.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;11.6&#34; y1=&#34;11.6&#34; x2=&#34;10.18&#34; y2=&#34;10.18&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;13.5&#34; y1=&#34;7&#34; x2=&#34;11.5&#34; y2=&#34;7&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;11.6&#34; y1=&#34;2.4&#34; x2=&#34;10.18&#34; y2=&#34;3.82&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;/line&gt;&lt;/g&gt;&lt;/svg&gt;&#xA;            &lt;/a&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/nav&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;wrapper&#34;&gt;&#xA;        &#xA;&#xA;&#xA;&lt;div class=&#34;author&#34;&gt;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &lt;img&#xA;        class=&#34;author-avatar&#34;&#xA;        src=&#34;http://localhost:1313/avatar_hu_62afc8cadb6cac62.webp&#34;&#xA;        srcset=&#34;http://localhost:1313/avatar_hu_d3172a709ca6dead.webp 2x, http://localhost:1313/avatar_hu_87d2de3372dc852.webp 3x&#34;&#xA;        alt=&#34;Sidharth R&#34;&#xA;        width=&#34;70&#34;&#xA;        height=&#34;70&#34; /&gt;&#xA;    &#xA;    &#xA;    &lt;h2 class=&#34;author-name&#34;&gt;Awesome hugo blog&lt;/h2&gt;&#xA;    &lt;p class=&#34;author-bio&#34;&gt;A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/pages/about/</guid>
+      <description>&lt;h1 id=&#34;the-hugo&#34;&gt;The Hugo&lt;/h1&gt;&#xA;&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;various-projects&#34;&gt;Various projects&lt;/h2&gt;&#xA;&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/pages/about/</guid>
-      
-      <description>&lt;h1 id=&#34;the-hugo&#34;&gt;The Hugo&lt;/h1&gt;
-&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;h2 id=&#34;various-projects&#34;&gt;Various projects&lt;/h2&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
-      
+      <description>&lt;h1 id=&#34;the-hugo&#34;&gt;The Hugo&lt;/h1&gt;&#xA;&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;various-projects&#34;&gt;Various projects&lt;/h2&gt;&#xA;&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Eventos que participei</title>
+      <link>http://localhost:1313/br/pages/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/pages/events/</guid>
+      <description>&lt;h2 id=&#34;1-seminários&#34;&gt;1. Seminários&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;&#xA;&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4-palestras&#34;&gt;4. Palestras&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Events I was participate</title>
+      <link>http://localhost:1313/en/pages/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/pages/events/</guid>
+      <description>&lt;h2 id=&#34;1-seminars&#34;&gt;1. Seminars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;&#xA;&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4-conferences&#34;&gt;4. Conferences&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;Test math:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times 2 = \frac{6}{4} \div 2 = \frac{3}{2}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\int_{-1}^{2} x^2 dx&#xA;$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Events I was participate</title>
       <link>http://localhost:1313/pages/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/pages/events/</guid>
-      
-      <description>&lt;h2 id=&#34;1-seminars&#34;&gt;1. Seminars&lt;/h2&gt;
-&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;
-&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;
-&lt;h2 id=&#34;4-conferences&#34;&gt;4. Conferences&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;Test math:&lt;/p&gt;
-&lt;p&gt;$$
-\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times 2 = \frac{6}{4} \div 2 = \frac{3}{2}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\int_{-1}^{2} x^2 dx
-$$&lt;/p&gt;</description>
-      
+      <description>&lt;h2 id=&#34;1-seminars&#34;&gt;1. Seminars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;&#xA;&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4-conferences&#34;&gt;4. Conferences&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;Test math:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times 2 = \frac{6}{4} \div 2 = \frac{3}{2}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\int_{-1}^{2} x^2 dx&#xA;$$&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/br/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/br/pages/about/</guid>
+      <description>&lt;p&gt;Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sob a &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Licença Apache 2.0.&lt;/a&gt; Hugo suporta os tipos de arquivos de dados TOML, YAML e JSON, arquivos de conteúdo em Markdown e HTML, e usa shortcodes para adicionar conteúdo rico. Outras funcionalidades notáveis incluem taxonomias, modo multilíngue, processamento de imagens, formatos de saída personalizados, minificação de HTML/CSS/JS e suporte para fluxos de trabalho com Sass e SCSS.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

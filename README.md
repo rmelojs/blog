@@ -237,3 +237,5 @@ Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob
 ## License
 
 This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE).
+
+Change the profile pictures in /public/

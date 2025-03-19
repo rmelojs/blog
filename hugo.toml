@@ -14,7 +14,7 @@ ignoreErrors = [
 ] # ignore error of loading additional scripts.
 
 # traditional way: theme component resides in directory 'themes'
-theme = "hugo-blog-awesome"
+# theme = "hugo-blog-awesome"    # now using modules
 
 # modern way: pull in theme component as hugo module
 [module]

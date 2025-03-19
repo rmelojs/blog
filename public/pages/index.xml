@@ -4,42 +4,30 @@
     <title>Pages on Tutoriais Tech</title>
     <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on Tutoriais Tech</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Mar 2025 08:28:48 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/pages/tools/</link>
+      <pubDate>Wed, 19 Mar 2025 08:28:48 -0300</pubDate>
+      <guid>http://localhost:1313/pages/tools/</guid>
+      <description>&lt;h2 id=&#34;free-and-open-source-tools&#34;&gt;Free and Open Source tools&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/pages/about/</guid>
-      
-      <description>&lt;h1 id=&#34;the-hugo&#34;&gt;The Hugo&lt;/h1&gt;
-&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;h2 id=&#34;various-projects&#34;&gt;Various projects&lt;/h2&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
-      
+      <description>&lt;h1 id=&#34;the-hugo&#34;&gt;The Hugo&lt;/h1&gt;&#xA;&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;various-projects&#34;&gt;Various projects&lt;/h2&gt;&#xA;&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Events I was participate</title>
       <link>http://localhost:1313/pages/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/pages/events/</guid>
-      
-      <description>&lt;h2 id=&#34;1-seminars&#34;&gt;1. Seminars&lt;/h2&gt;
-&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;
-&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;
-&lt;h2 id=&#34;4-conferences&#34;&gt;4. Conferences&lt;/h2&gt;
-&lt;p align=&#34;center&#34;&gt;Test math:&lt;/p&gt;
-&lt;p&gt;$$
-\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times 2 = \frac{6}{4} \div 2 = \frac{3}{2}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\int_{-1}^{2} x^2 dx
-$$&lt;/p&gt;</description>
-      
+      <description>&lt;h2 id=&#34;1-seminars&#34;&gt;1. Seminars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2-workshops&#34;&gt;2. Workshops&lt;/h2&gt;&#xA;&lt;h2 id=&#34;3-webinars&#34;&gt;3. Webinars&lt;/h2&gt;&#xA;&lt;h2 id=&#34;4-conferences&#34;&gt;4. Conferences&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;Test math:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times 2 = \frac{6}{4} \div 2 = \frac{3}{2}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\int_{-1}^{2} x^2 dx&#xA;$$&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
